@@ -1,4 +1,4 @@
-# SQL Revision Notes - Day 1
+# SQL Revision Notes
 
 This repository contains my SQL revision notes, structured topic-wise, for my learning and interview preparation. 
 
@@ -7,8 +7,9 @@ This repository contains my SQL revision notes, structured topic-wise, for my le
 
 ---
 
-## Index of Topics (Day 1)
+## Index of Topics
 
+### 📅 Day 1
 1. [**01 Database Basics**](./01_database_basics/README.md)
    - What is a Database?
    - Difference between DBMS and RDBMS.
@@ -51,3 +52,36 @@ This repository contains my SQL revision notes, structured topic-wise, for my le
 11. [**11 Autocommit & Transactions**](./11_autocommit_transactions/README.md)
     - What is Autocommit?
     - How to manage it.
+
+### 📅 Day 2
+12. [**12 Foreign Keys & Referential Integrity**](./12_foreign_keys_referential_integrity/README.md)
+    - Primary Key & Auto-Increment recap.
+    - Foreign Keys & Referential Integrity.
+    - Cascade options (`ON DELETE CASCADE`, `ON UPDATE CASCADE`).
+13. [**13 Joins and Combinations**](./13_joins_combinations/README.md)
+    - INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN emulation.
+    - Self Joins, Cross Joins.
+14. [**14 UNION vs UNION ALL**](./14_union_union_all/README.md)
+    - Combining result sets.
+    - Set operation rules and key differences.
+15. [**15 Subqueries**](./15_subqueries/README.md)
+    - Scalar, Column, Derived Table (mandatory aliases).
+    - Non-correlated vs Correlated subqueries.
+    - Performance: EXISTS vs IN (early exit logic).
+16. [**16 GROUP BY & HAVING**](./16_group_by_having/README.md)
+    - Filtering aggregated results.
+    - Key differences: WHERE vs HAVING.
+17. [**17 Views**](./17_views/README.md)
+    - Virtual Tables, benefits (Data Masking & Security, Query Simplicity).
+    - Rules for Updatable Views.
+18. [**18 Indexes**](./18_indexes/README.md)
+    - Clustered vs Secondary Indexes, Unique and Full-Text.
+    - Performance benefits vs Write Overhead.
+    - Verifying index use with EXPLAIN.
+19. [**19 Stored Procedures**](./19_stored_procedures/README.md)
+    - DELIMITER redefinition.
+    - Procedures with IN, OUT, and INOUT parameter signatures.
+20. [**20 Triggers**](./20_triggers/README.md)
+    - Event timing (BEFORE/AFTER) and DML types (INSERT, UPDATE, DELETE).
+    - Accessing column changes via OLD and NEW qualifiers.
+
